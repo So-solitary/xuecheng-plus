@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/content/course")
 @Slf4j
-@Api(tags = "")
+@Api(tags = "课程信息编辑接口")
 public class CourseBaeInfoController {
 
     @GetMapping("/list")
