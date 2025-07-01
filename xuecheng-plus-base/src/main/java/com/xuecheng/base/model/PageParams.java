@@ -1,14 +1,12 @@
 package com.xuecheng.base.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 @Data
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class PageParams {
 
     private Long PageNo;

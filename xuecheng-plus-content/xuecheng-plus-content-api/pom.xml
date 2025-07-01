@@ -60,12 +60,22 @@
             <artifactId>spring-boot-starter-log4j2</artifactId>
         </dependency>
 
-        <!-- Spring Boot 集成 swagger -->
-<!--        <dependency>-->
-<!--            <groupId>com.spring4all</groupId>-->
-<!--            <artifactId>swagger-spring-boot-starter</artifactId>-->
-<!--            <version>1.9.0.RELEASE</version>-->
-<!--        </dependency>-->
+        <!-- mybatis plus的依赖 -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
 
     </dependencies>
 

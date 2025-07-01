@@ -1,7 +1,6 @@
 package com.xuecheng.content.model.dto;
 
-import lombok.Data;
-import lombok.ToString;
+import lombok.*;
 
 /**
  * @description 课程查询参数Dto
@@ -10,7 +9,9 @@ import lombok.ToString;
  * @version 1.0
  */
 @Data
-@ToString
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class QueryCourseParamsDto {
 
     //审核状态

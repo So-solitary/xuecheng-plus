@@ -1,5 +1,6 @@
 package com.xuecheng.base.model;
 
+import lombok.Builder;
 import lombok.Data;
 import lombok.ToString;
 
@@ -14,6 +15,7 @@ import java.util.List;
  */
 @Data
 @ToString
+@Builder
 public class PageResult<T> implements Serializable {
 
     // 数据列表
