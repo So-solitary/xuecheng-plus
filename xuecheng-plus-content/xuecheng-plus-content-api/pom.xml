@@ -26,6 +26,11 @@
             <artifactId>xuecheng-plus-content-model</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.xuecheng</groupId>
+            <artifactId>xuecheng-plus-base</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 
         <!--cloud的基础环境包-->
         <dependency>
@@ -60,11 +65,7 @@
             <artifactId>spring-boot-starter-log4j2</artifactId>
         </dependency>
 
-        <!-- mybatis plus的依赖 -->
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-        </dependency>
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

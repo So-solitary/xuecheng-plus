@@ -32,6 +32,7 @@
         <okhttp.version>4.8.1</okhttp.version>
         <swagger-spring-boot-starter.version>1.9.0.RELEASE</swagger-spring-boot-starter.version>
         <elasticsearch.version>7.12.1</elasticsearch.version>
+
     </properties>
 
 
@@ -44,7 +45,11 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
                 <version>${spring-cloud.version}</version>
+                <!-- 指定依赖的类型。默认是jar（Java库）。这里设置为pom，表明spring-cloud-dependencies本身是一个Maven项目对象模型（POM）文件，而不是一个JAR包。BOM通常就是POM文件。-->
                 <type>pom</type>
+                <!-- import是一个特殊的scope，仅用于在<dependencyManagement>块内。-->
+                <!-- 它的作用是：将这个BOM（spring-cloud-dependencies）中定义的所有依赖项及其版本信息，“导入”到你当前项目的<dependencyManagement>中。-->
+                <!-- 简单来说：<scope>import</scope>告诉Maven：“去找到spring-cloud-dependencies这个POM文件（指定版本），把它里面列出的所有依赖项及其推荐/兼容的版本号，都复制到我当前项目的依赖管理列表里来”。-->
                 <scope>import</scope>
             </dependency>
             <dependency>

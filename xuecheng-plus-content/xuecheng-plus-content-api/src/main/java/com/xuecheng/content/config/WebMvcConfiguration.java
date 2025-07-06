@@ -1,19 +1,12 @@
-package com.xuecheng.base.config;
+package com.xuecheng.content.config;
 
 import com.xuecheng.base.json.JacksonObjectMapper;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
-import springfox.documentation.builders.ApiInfoBuilder;
-import springfox.documentation.builders.PathSelectors;
-import springfox.documentation.builders.RequestHandlerSelectors;
-import springfox.documentation.service.ApiInfo;
-import springfox.documentation.spi.DocumentationType;
-import springfox.documentation.spring.web.plugins.Docket;
 
 import java.util.List;
 
@@ -25,26 +18,26 @@ import java.util.List;
 public class WebMvcConfiguration extends WebMvcConfigurationSupport {
 
 
-    /**
-     * 通过knife4j生成接口文档
-     * @return
-     */
-    @Bean
-    public Docket docket1() {
-        ApiInfo apiInfo = new ApiInfoBuilder()
-                .title("学成在线内容管理系统")
-                .version("1.0.0")
-                .description("内容系统管理系统对课程相关信息进行管理")
-                .build();
-        Docket docket = new Docket(DocumentationType.SWAGGER_2)
-                // .groupName("管理端接口")
-                .apiInfo(apiInfo)
-                .select()
-                .apis(RequestHandlerSelectors.basePackage("com.xuecheng.content"))
-                .paths(PathSelectors.any())
-                .build();
-        return docket;
-    }
+//    /**
+//     * 通过knife4j生成接口文档
+//     * @return
+//     */
+//    @Bean
+//    public Docket docket1() {
+//        ApiInfo apiInfo = new ApiInfoBuilder()
+//                .title("学成在线内容管理系统")
+//                .version("1.0.0")
+//                .description("内容系统管理系统对课程相关信息进行管理")
+//                .build();
+//        Docket docket = new Docket(DocumentationType.SWAGGER_2)
+//                // .groupName("管理端接口")
+//                .apiInfo(apiInfo)
+//                .select()
+//                .apis(RequestHandlerSelectors.basePackage("com.xuecheng.content"))
+//                .paths(PathSelectors.any())
+//                .build();
+//        return docket;
+//    }
 
 
     /**

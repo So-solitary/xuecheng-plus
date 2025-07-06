@@ -196,7 +196,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at com.xuecheng.XuechengPlusContentApiApplication.main(XuechengPlusContentApiApplication.java:10)
+	at com.xuecheng.ContentApplication.main(XuechengPlusContentApiApplication.java:10)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
@@ -251,7 +251,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at com.xuecheng.XuechengPlusContentApiApplication.main(XuechengPlusContentApiApplication.java:10)
+	at com.xuecheng.ContentApplication.main(XuechengPlusContentApiApplication.java:10)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
@@ -306,7 +306,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at com.xuecheng.XuechengPlusContentApiApplication.main(XuechengPlusContentApiApplication.java:10)
+	at com.xuecheng.ContentApplication.main(XuechengPlusContentApiApplication.java:10)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
@@ -361,7 +361,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at com.xuecheng.XuechengPlusContentApiApplication.main(XuechengPlusContentApiApplication.java:10)
+	at com.xuecheng.ContentApplication.main(XuechengPlusContentApiApplication.java:10)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
@@ -582,7 +582,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at com.xuecheng.XuechengPlusContentApiApplication.main(XuechengPlusContentApiApplication.java:10)
+	at com.xuecheng.ContentApplication.main(XuechengPlusContentApiApplication.java:10)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
@@ -637,7 +637,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at com.xuecheng.XuechengPlusContentApiApplication.main(XuechengPlusContentApiApplication.java:10)
+	at com.xuecheng.ContentApplication.main(XuechengPlusContentApiApplication.java:10)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
@@ -692,7 +692,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at com.xuecheng.XuechengPlusContentApiApplication.main(XuechengPlusContentApiApplication.java:10)
+	at com.xuecheng.ContentApplication.main(XuechengPlusContentApiApplication.java:10)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
@@ -747,7 +747,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at com.xuecheng.XuechengPlusContentApiApplication.main(XuechengPlusContentApiApplication.java:10)
+	at com.xuecheng.ContentApplication.main(XuechengPlusContentApiApplication.java:10)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
@@ -968,7 +968,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at com.xuecheng.XuechengPlusContentApiApplication.main(XuechengPlusContentApiApplication.java:10)
+	at com.xuecheng.ContentApplication.main(XuechengPlusContentApiApplication.java:10)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
@@ -1023,7 +1023,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at com.xuecheng.XuechengPlusContentApiApplication.main(XuechengPlusContentApiApplication.java:10)
+	at com.xuecheng.ContentApplication.main(XuechengPlusContentApiApplication.java:10)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
@@ -1078,7 +1078,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at com.xuecheng.XuechengPlusContentApiApplication.main(XuechengPlusContentApiApplication.java:10)
+	at com.xuecheng.ContentApplication.main(XuechengPlusContentApiApplication.java:10)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
@@ -1133,7 +1133,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at com.xuecheng.XuechengPlusContentApiApplication.main(XuechengPlusContentApiApplication.java:10)
+	at com.xuecheng.ContentApplication.main(XuechengPlusContentApiApplication.java:10)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
@@ -1354,7 +1354,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at com.xuecheng.XuechengPlusContentApiApplication.main(XuechengPlusContentApiApplication.java:10)
+	at com.xuecheng.ContentApplication.main(XuechengPlusContentApiApplication.java:10)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
@@ -1409,7 +1409,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at com.xuecheng.XuechengPlusContentApiApplication.main(XuechengPlusContentApiApplication.java:10)
+	at com.xuecheng.ContentApplication.main(XuechengPlusContentApiApplication.java:10)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
@@ -1464,7 +1464,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at com.xuecheng.XuechengPlusContentApiApplication.main(XuechengPlusContentApiApplication.java:10)
+	at com.xuecheng.ContentApplication.main(XuechengPlusContentApiApplication.java:10)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
@@ -1519,7 +1519,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at com.xuecheng.XuechengPlusContentApiApplication.main(XuechengPlusContentApiApplication.java:10)
+	at com.xuecheng.ContentApplication.main(XuechengPlusContentApiApplication.java:10)
 Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
 	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
 	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
