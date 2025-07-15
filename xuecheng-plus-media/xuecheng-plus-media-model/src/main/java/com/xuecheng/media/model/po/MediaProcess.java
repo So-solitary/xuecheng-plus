@@ -1,8 +1,7 @@
 package com.xuecheng.media.model.po;
 
 import com.baomidou.mybatisplus.annotation.*;
-import lombok.Data;
-import lombok.ToString;
+import lombok.*;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
@@ -17,6 +16,9 @@ import java.time.LocalDateTime;
 @Data
 @ToString
 @TableName("media_process")
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class MediaProcess implements Serializable {
 
     private static final long serialVersionUID = 1L;

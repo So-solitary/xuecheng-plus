@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/content/course-category")
+@RequestMapping("/course-category")
 @Slf4j
 @Api(tags = "课程分类编辑接口")
 public class CourseCategoryController {

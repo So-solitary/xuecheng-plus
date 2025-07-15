@@ -16,7 +16,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/content/course")
+@RequestMapping("/course")
 @Slf4j
 @Api(tags = "课程信息编辑接口")
 public class CourseBaeInfoController {

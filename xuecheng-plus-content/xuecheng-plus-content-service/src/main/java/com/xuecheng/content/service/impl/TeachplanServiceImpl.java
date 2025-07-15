@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.xuecheng.base.exception.XueChengPlusException;
 import com.xuecheng.content.mapper.TeachplanMapper;
 import com.xuecheng.content.mapper.TeachplanMediaMapper;
+import com.xuecheng.content.model.dto.BindTeachplanMediaDto;
 import com.xuecheng.content.model.dto.SaveTeachplanDto;
 import com.xuecheng.content.model.dto.TeachplanDto;
 import com.xuecheng.content.model.po.Teachplan;
@@ -15,6 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
@@ -147,6 +149,34 @@ public class TeachplanServiceImpl implements TeachplanService {
             teachplanMapper.insert(teachplanNew);
 
         }
+    }
+
+    /**
+     * 教学计划关联视频
+     * @param bindTeachplanMediaDto
+     */
+    @Override
+    public void associationMedia(BindTeachplanMediaDto bindTeachplanMediaDto) {
+        Teachplan teachplan = teachplanMapper.selectById(bindTeachplanMediaDto.getTeachplanId());
+        if (teachplan == null) {
+            throw new XueChengPlusException("教学计划不存在: " + teachplan);
+        }
+        if (teachplan.getGrade() != 2) {
+            throw new XueChengPlusException("只允许第二级教学计划绑定媒资文件");
+        }
+
+        Long courseId = teachplan.getCourseId();
+
+        teachplanMediaMapper.delete(new LambdaQueryWrapper<TeachplanMedia>().eq(TeachplanMedia::getTeachplanId,bindTeachplanMediaDto.getTeachplanId()));
+        TeachplanMedia teachplanMedia = TeachplanMedia.builder()
+                .mediaId(bindTeachplanMediaDto.getMediaId())
+                .teachplanId(teachplan.getId())
+                .courseId(courseId)
+                .mediaFilename(bindTeachplanMediaDto.getFileName())
+                .createDate(LocalDateTime.now())
+                .build();
+        teachplanMediaMapper.insert(teachplanMedia);
+
     }
 
     /**

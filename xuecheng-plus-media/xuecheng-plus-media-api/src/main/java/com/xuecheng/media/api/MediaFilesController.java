@@ -62,7 +62,7 @@ public class MediaFilesController {
         long fileSize = uploadFile.getSize();
         uploadFileParamsDto.setFileSize(fileSize);
         //创建临时文件
-        File tempFile = File.createTempFile("minio", "temp"); // 在服务端生成
+        File tempFile = File.createTempFile("minio_", ".temp"); // 在服务端生成
         //上传的文件拷贝到临时文件
         uploadFile.transferTo(tempFile);
         //文件路径

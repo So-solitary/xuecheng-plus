@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/content/courseTeacher")
+@RequestMapping("/courseTeacher")
 @Api(tags = "课程师资")
 @Slf4j
 public class CourseTeacherController {
