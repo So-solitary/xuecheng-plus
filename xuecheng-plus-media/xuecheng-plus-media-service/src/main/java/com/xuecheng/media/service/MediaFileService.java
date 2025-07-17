@@ -72,4 +72,11 @@ public interface MediaFileService {
      * @return
      */
     RestResponse mergechunks(Long companyId, String fileMd5, int chunkTotal, UploadFileParamsDto uploadFileParamsDto) throws IOException;
+
+    /**
+     * 根据文件Id获取媒资文件
+     * @param mediaId
+     * @return
+     */
+    MediaFiles getFileById(String mediaId);
 }
