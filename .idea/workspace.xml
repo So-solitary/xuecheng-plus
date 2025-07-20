@@ -5,28 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b58bde47-d786-4932-bcb5-72a9d8bb96d2" name="Changes" comment="创建xuecheng-plus-base">
-      <change afterPath="$PROJECT_DIR$/logs/2025-07-15/error.2025-07-15-18.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2025-07-15/error.2025-07-15-22.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2025-07-15/info.2025-07-15-19.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2025-07-15/info.2025-07-15-20.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2025-07-15/info.2025-07-15-21.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2025-07-15/info.2025-07-15-22.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2025-07-16/error.2025-07-16-18.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2025-07-16/error.2025-07-16-22.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2025-07-16/info.2025-07-16-18.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2025-07-16/info.2025-07-16-19.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2025-07-16/info.2025-07-16-20.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2025-07-16/info.2025-07-16-21.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2025-07-16/info.2025-07-16-22.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2025-07-17/info.2025-07-17-17.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2025-07-17/info.2025-07-17-18.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/ContentOpenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/src/main/java/com/xuecheng/media/api/MediaOpenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-07-17/error.2025-07-17-17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-07-17/error.2025-07-17-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-07-17/error.2025-07-17-23.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-07-17/info.2025-07-17-19.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-07-17/info.2025-07-17-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-07-17/info.2025-07-17-21.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-07-17/info.2025-07-17-22.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-07-17/info.2025-07-17-23.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-07-20/error.2025-07-20-10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-07-20/error.2025-07-20-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-07-20/error.2025-07-20-15.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-07-20/info.2025-07-20-10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-07-20/info.2025-07-20-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-07-20/info.2025-07-20-12.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-07-20/info.2025-07-20-13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-07-20/info.2025-07-20-14.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-07-20/info.2025-07-20-15.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-07-20/info.2025-07-20-18.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-07-20/info.2025-07-20-19.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-07-20/info.2025-07-20-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/constant/AuditConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/constant/PublishConstant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service/MediaFileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service/MediaFileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service/impl/MediaFileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service/impl/MediaFileServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CoursePublishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CoursePublishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CoursePublishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CoursePublishService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CoursePublishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CoursePublishServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,8 +237,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.MediaApplication" />
         <item itemvalue="Spring Boot.ContentApplication" />
+        <item itemvalue="Spring Boot.MediaApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.SystemApplication" />
         <item itemvalue="Spring Boot.MediaApplication (1)" />
@@ -384,7 +390,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752584770233</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="创建xuecheng-plus-base">
+      <option name="closed" value="true" />
+      <created>1752764710259</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1752764710259</updated>
+    </task>
+    <task id="LOCAL-00017" summary="创建xuecheng-plus-base">
+      <option name="closed" value="true" />
+      <created>1752764724762</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1752764724762</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
