@@ -26,7 +26,7 @@ public class CoursePublishController {
 
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("model", null);
-        modelAndView.setViewName("course_template");
+        modelAndView.setViewName("course_template.ftl");
         return modelAndView;
     }
 
@@ -36,5 +36,13 @@ public class CoursePublishController {
     public void commitAudit(@PathVariable("courseId") Long courseId) {
         Long companyId = 1232141425L;
         coursePublishService.commitAudit(companyId, courseId);
+    }
+
+    @ApiOperation("课程发布")
+    @ResponseBody
+    @PostMapping ("/coursepublish/{courseId}")
+    public void coursepublish(@PathVariable("courseId") Long courseId){
+        Long companyId = 1232141425L;
+        coursePublishService.publish(companyId,courseId);
     }
 }
